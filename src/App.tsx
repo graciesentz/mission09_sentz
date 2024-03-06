@@ -35,10 +35,18 @@ function TeamList() {
   );
 }
 
+function Header() {
+  return (
+    <div>
+      <h1>NCAA Basketball</h1>
+    </div>
+  );
+}
+
 function App() {
   return (
     <div className="App">
-      <h1>NCAA Basketball</h1>
+      <Header />
       <TeamList />
     </div>
   );
